@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*                                                                                                                                                    
+                                                               CREATED BY                                                           
+   .yyyyys/     `.-:::-``                                                         `````````````                                  +yyyyyy/             
+   :MMd///-  `+hNMMMMMMMmy:                                                      :MMMMMMMMMMMNN.                                 +yyydMMo             
+   /MMs     .mMMMMMMMMMMMMMh`                                                    :MMMMMMMMMMMdh`                                     /MM+             
+   /MMo     yMMMMMMMMMMMMms:       .:/-`      `......   `      `....``           :MMMMMMMMM            ```  ```        ```  ```      /MM+             
+   +MM+     yMMMMMMMMMMMMs.     -ohNMMMmhs+.  /NNNNNN-:sdo  .ohmNMMMNdo`         :MMMMMMMMMd/     `-+yhdddo:ddd   `-+yhdddo-ddd`     /MM+             
+   +MM/     .dMMMMMMMMMMMMNs`  oMMMMMNmMMMMN` oMMMMMMNMMMM`oNMMMMMMMMMMm.        :MMMMMMMMM      /dMMMMMMMMNMMM- /dMMMMMMMMNMMM:     +MM+             
+   oMM:      `omMMMMMMMMMMMMd``NMMMMy   dMMM: oMMMMMMMMMMd/MMMMMN  mMMMMd        :MMMMMMMMMMMMM /MMMMMMMNo+MMMM//MMMMMMMNs+MMMM+     +MM+             
+   sMM-       .+NMMMMMMMMMMMM:sMMMMM:   oMMMo oMMMMMMMmdo`yMMMMMs  sMMMMM:       :MMMMMMMMMMMMM hMMMMMMm   MMMMoyMMMMMMm   MMMMs     +MM/    ```      
+   sMM.     `hNMMMMMMMMMMMMMM:NMMMMMNdhdMMMMs sMMMMMMM`   oMMMMMNNMMMNmdh:       :MMMMMMMMMMMMM oMMMMMMMMNmMMMMo+MMMMMMMMNmMMMMs     +MM:  /hdmmdo.   
+   yMM`      /mMMMMMMMMMMMMMs dNMMMMMMMMMMMMo sMMMMMMM    `hMMMMMMMdo            :MMMMMMMMMMMMM `yMMMMMMMMMMMMM+`sMMMMMMMMMMMMMo     +MM: -MMMMMMMh   
+   hMM`       .odMMMMMMMMmy-  `.oNMMMMMMMNd+` yMMMMMMM`    `/hNMMMMMMNd:         :MMMMMMMMMMMMM   :ydNMMMMMMMMN.  -sdNMMMMMMMMM-     +MM: .NMMMMMN+   
+   hMN          `./ooo+/-`       .oyyhyo:.`   +sssssss`       .:+syhddy`         `/////////////     `.+dMMMMMN/     `.+dMMMMMN+      +MM:  .oyhyo-    
+   dMN                                                              ``                             .omMMMMMMh-     .omMMMMMMh-   ```.oMM-             
+   dMNyysso`                                                                                      oNMMMMMdo-      oNMMMMMdo-    .NNNNMMM.             
+   :///+++o`                                               HELLO@SOREEGG.COM.AU                   .yys+:`         .yys+:``       ``.....              
+														   HTTP://SOREEGG.COM.AU
+
+*/
+
+body {
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	background-color: #103d7a;
+	background-image: url(images/coffebeans.jpeg);
+	background-attachment: fixed;
+}
+
+.header:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.header:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.header:hover {
+	text-decoration: none;
+	color: #EFE6C0;
+}
+
+.pLink:link {
+    color: #0F193E;
+    text-decoration: none;
+}
+.pLink:visited {
+    text-decoration: none;
+    color: #0F193E;
+}
+.pLink:hover {
+    text-decoration: underline;
+    color: #0F193E;
+}
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+}
+
+.header {
+	font-family: "basic";
+	font-style: normal;
+	font-weight: 400;
+	color: #EFE6C0;
+	background-color: #0F193E;
+	text-align: center;
+}
+
+div, .sec {
+	background: #EFE6C0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #EFE6C0;
+}
+
+p, h1, h2, h3, ul, .txt {
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #0F193E;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.scoMeIcon {
+	width: 100%;
+	
+}
+
+.itemCell {
+	position: relative;
+	width: 20%;
+	background-color: #0F193E;
+	padding: 20px;
+	color: "#EFE6C0";
+}
+
+.imgCell {
+	background-color: #EFE6C0;
+	width: 50%
+	
+}
+
+.img {
+	width: 100%;
+}
+
+
+.itemSpace {
+	width: 5%;
+	
+}
+
+.itemTitle {
+	font-size: 17pt;
+	width: 45%;
+	font-family: base-mono-wide, monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.itemPrice {
+	font-size: 15pt;
+	text-align: left;
+	font-family: omnes-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;	
+}
+
+.itemDesc {
+	font-size: 12pt;
+	opacity: 0.5;
+	font-family: mr-eaves-xl-modern, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: left;
+	
+}
+
+.number {
+	width: 100%;
+	background: transparent;
+	border-radius: 5px;
+  	border: 1px solid #EFE6C0;
+	outline: none;
+	color: #EFE6C0;
+	padding-left: 5px;
+	font-size: 10pt;
+	
+	
+}
+
+.placeOrderTxt {
+	font-family: omnes-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;	
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+	border-radius: 5px;
+  	border: 2px solid #0F193E;
+	outline: none;
+	color: #0F193E;
+	margin-bottom: 16px;
+	height: 50px;
+	font-size: 12pt;
+	width: 100%
+}
+
+.submitButton {
+	font-family: omnes-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;	
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #0F193E;
+	border-radius: 5px;
+  	border: 2px solid #0F193E;
+	outline: none;
+	color: #EFE6C0;
+	margin-bottom: 16px;
+	height: 50px;
+	font-size: 12pt;
+	width: 50%
+	
+}
+
+.submitButton:hover {
+	background: transparent;
+	color: #0F193E;
+	
+}
+
+.plug {
+	background-color: #0F193E;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.plugImg {
+	height: 30px;
+	padding: 10px;
+	
+}
+
+textarea {
+	resize: none;
+	
+}
+
+.contact-page {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+#contact-message {
+	height: 150px;
+	
+}
